@@ -76,7 +76,7 @@ hr.small {
 	.navbar-brand {
 		font-weight: 800;
 		float: none;
-
+		width: 50px;
 	}
 	.navbar-header {
 
@@ -103,10 +103,12 @@ hr.small {
 	width: 70px;
 	cursor: pointer;
 }
-
+.navbar-brand {
+	margin-top: -20px;
+}
 #brand-name {
 	font-family: 'Bungee Inline', cursive;
-	font-size: 58px;
+	font-size: 28px;
 	text-decoration: none;
 	color: #000;
 }
@@ -115,13 +117,12 @@ hr.small {
 	color: #222;
 }
 
-
-
 	@media only screen and (min-width: 768px) {
-
-
 		background: white;
 		border-bottom: 1px solid transparent;
+		#brand-name {
+			font-size: 58px;
+		}
 		.navbar-brand {
 			margin-top: 10px;
 			position: absolute;

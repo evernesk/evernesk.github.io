@@ -52,6 +52,7 @@ hr.small {
 .navbar-static-top .navbar-brand {
   font-weight: 800;
   float: none;
+  width: 50px;
 }
 .navbar-static-top .navbar-header .navbar-toggle {
   color: #777777;
@@ -70,9 +71,12 @@ hr.small {
   width: 70px;
   cursor: pointer;
 }
+.navbar-static-top .navbar-brand {
+  margin-top: -20px;
+}
 .navbar-static-top #brand-name {
   font-family: 'Bungee Inline', cursive;
-  font-size: 58px;
+  font-size: 28px;
   text-decoration: none;
   color: #000;
 }
@@ -83,6 +87,9 @@ hr.small {
   .navbar-static-top {
     background: white;
     border-bottom: 1px solid transparent;
+  }
+  .navbar-static-top #brand-name {
+    font-size: 58px;
   }
   .navbar-static-top .navbar-brand {
     margin-top: 10px;
