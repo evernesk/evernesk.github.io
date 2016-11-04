@@ -20,7 +20,9 @@
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
-
+	#logoen {
+		font-family: 'Montserrat';
+	}
 	body {
 		line-height: 1;
 	}
