@@ -21,7 +21,7 @@
 		display: block;
 	}
 	#logoen {
-		font-family: 'Montserrat';
+		font-family: 'Montserrat' !important;
 	}
 	body {
 		line-height: 1;
