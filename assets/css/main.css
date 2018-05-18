@@ -1632,7 +1632,7 @@
 	}
 
 	body {
-		background: #232323;
+		background: white;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
